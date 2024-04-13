@@ -1,0 +1,19 @@
+User-Agent: *
+Disallow: /page7197527.html
+Disallow: /page7197548.html
+Disallow: /page7271476.html
+Disallow: /error
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://cultimedia.design/sitemap.xml
+Host: https://cultimedia.design

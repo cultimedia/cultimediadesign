@@ -1,0 +1,32 @@
+ErrorDocument 403 /page7271476.html
+ErrorDocument 404 /page7271476.html
+
+DirectoryIndex page7184773.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^error$ page7271476.html [NC]
+RewriteRule ^error/$ page7271476.html [NC]
+
+RewriteRule ^about$ page7398789.html [NC]
+RewriteRule ^about/$ page7398789.html [NC]
+
+RewriteRule ^privacypolicy$ page9430303.html [NC]
+RewriteRule ^privacypolicy/$ page9430303.html [NC]
+
+RewriteRule ^terms$ page9430477.html [NC]
+RewriteRule ^terms/$ page9430477.html [NC]
+
+RewriteRule ^nowwhat$ page23660812.html [NC]
+RewriteRule ^nowwhat/$ page23660812.html [NC]
+
+RewriteRule ^cannabisinsurance$ page23660867.html [NC]
+RewriteRule ^cannabisinsurance/$ page23660867.html [NC]
+
+RewriteRule ^cultivationchecklist$ page23660888.html [NC]
+RewriteRule ^cultivationchecklist/$ page23660888.html [NC]
+
+
